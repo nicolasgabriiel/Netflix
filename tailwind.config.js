@@ -10,8 +10,11 @@ module.exports = {
       zIndex: {
         '0': '-100',
     },
-    height: {
+      height: {
       '128': '1049px',
+    },
+      backgroundImage: {
+      'hero-pattern': "url('./src/assets/bg-tela-inicial.jpg')",
     }
     }
   },

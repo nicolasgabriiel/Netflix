@@ -1,11 +1,12 @@
 <template>
+  <!--          BACKGROUND       -->
+  <section class="w-full h-128 bg-black absolute z-0" >
+    <img src="../assets/bg-tela-inicial.jpg" class="absolute opacity-40">
+  </section>
+  <!-- Componente -->
+  <img src="../assets/logo.png" alt="" class="w-44 pt-5 ml-12">
   
-  <img src="../assets/bg-tela-inicial.jpg" alt="background"   class="absolute  opacity-80 z-0">
- 
-  <main>
-    <div class="bg-black w-full h-128 absolute opacity-60 z-0"  ></div>
-    <img src="../assets/logo.png" alt="" class="w-44 pt-5 ml-8 z-100">
-  </main>
+  
 </template>
 
 <script  lang="ts">
