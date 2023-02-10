@@ -6,7 +6,14 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      zIndex: {
+        '0': '-100',
+    },
+    height: {
+      '128': '1049px',
+    }
+    }
   },
   plugins: [],
 }
