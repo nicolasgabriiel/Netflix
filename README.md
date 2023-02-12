@@ -38,3 +38,19 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+### Planejamento de Projeto
+
+-[ ] Criação da tela de Login
+    -[x] Criar Background
+    -[ ] Criar Componente Formulário
+    -[ ] Estruturar Formulário
+    -[ ] Estilizar Formulário
+    -[ ] Validar Formulário 
+    -[ ] Criar Rotas até os sites corretos
+    -[ ] Criar Componente Footer
+    -[ ] Estruturar Componente Footer
+    -[ ] Estilizar Componente Footer
+    -[ ] Criar Rotas do Componente Footer
+-[ ] Crição da tela de Escolha de Perfis
