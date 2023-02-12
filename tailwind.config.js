@@ -12,6 +12,7 @@ module.exports = {
     },
       height: {
       '128': '1049px',
+      '44': '167px',
     },
       backgroundImage: {
       'hero-pattern': "url('./src/assets/bg-tela-inicial.jpg')",
