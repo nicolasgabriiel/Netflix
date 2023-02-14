@@ -45,9 +45,10 @@ npm run build
 -[ ] Criação da tela de Login
     -[x] Criar Background
     -[x] Criar Componente Formulário
-    -[ ] Estruturar Formulário
+    -[x] Estruturar Formulário
     -[ ] Estilizar Formulário
     -[ ] Validar Formulário 
+    -[ ] Criar Lógica do Saiba mais
     -[ ] Criar Rotas até os sites corretos
     -[ ] Criar Componente Footer
     -[ ] Estruturar Componente Footer
