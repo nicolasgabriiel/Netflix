@@ -10,19 +10,19 @@
                 <button class="block bg-[#E50914] w-full p-4 mb-5 rounded-md"
                 >Entrar</button>
             </form>
-            <div>
-                <div>
-                    <div>
-
-                    </div>
+            <div class="flex justify-between">
+                <div class="flex">
+                    <div>[]</div>
                     <p>Esqueceu a senha?</p>
                 </div>
                 <a>Precisa de ajuda?</a>
             </div>
             <h2>Novo Por aqui? <a>Assine agora</a>.</h2>
             <div>
-                <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <button type="button">Saiba mais.</button></p>
-                <p class="hide">As informações recolhidas pelo Google reCAPTCHA estão sujeitas à <a>Política de Privacidade</a> e <a>Termos de Uso</a>, e são usadas para oferecer, manter e melhorar o serviço reCAPTCHA e por questões de segurança (não são usadas para exibir anúncios personalizados pelo Google).</p>
+                <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. 
+                    <button type="button" @click="mostrarMais" v-bind:class="{hide: !saibaMais}">Saiba mais.</button>
+                </p>
+                <p  v-bind:class="{hide: saibaMais}">As informações recolhidas pelo Google reCAPTCHA estão sujeitas à <a class="decoration-solid text-[#15009C]">Política de Privacidade</a> e <a class="decoration-solid text-[#15009C]">Termos de Uso</a>, e são usadas para oferecer, manter e melhorar o serviço reCAPTCHA e por questões de segurança (não são usadas para exibir anúncios personalizados pelo Google).</p>
             </div>
             
         </section>
@@ -33,6 +33,17 @@
 import { defineComponent } from 'vue'
 export default  defineComponent({
     name: 'FormularioComponent',
+    methods:{
+        mostrarMais(){
+            this.saibaMais = false   
+        }
+    },
+    data(){
+        return{
+            saibaMais: true,
+
+        }
+    }
 })
    
 

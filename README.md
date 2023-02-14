@@ -48,7 +48,7 @@ npm run build
     -[x] Estruturar Formulário
     -[ ] Estilizar Formulário
     -[ ] Validar Formulário 
-    -[ ] Criar Lógica do Saiba mais
+    -[x] Criar Lógica do Saiba mais
     -[ ] Criar Rotas até os sites corretos
     -[ ] Criar Componente Footer
     -[ ] Estruturar Componente Footer
