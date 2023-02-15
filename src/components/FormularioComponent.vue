@@ -6,23 +6,23 @@
                 <input type="text" placeholder="Email ou número de telefone " 
                 class="block bg-[#333333] w-full p-4 mb-5 rounded-md">
                 <input type="text" placeholder="Senha"
-                class="block bg-[#333333] w-full p-4 rounded-md mb-7">
-                <button class="block bg-[#E50914] w-full p-4 mb-5 rounded-md"
+                class="block bg-[#333333] w-full p-4 rounded-md mb-10">
+                <button class="block bg-[#E50914] w-full p-3 mb-5 rounded-md text-base font-bold"
                 >Entrar</button>
             </form>
             <div class="flex justify-between">
-                <div class="flex">
-                    <div>[]</div>
-                    <p>Esqueceu a senha?</p>
+                <div class="flex mb-10">
+                    <input type="checkbox">
+                    <p>Lembre-se de mim</p>
                 </div>
                 <a>Precisa de ajuda?</a>
             </div>
-            <h2>Novo Por aqui? <a>Assine agora</a>.</h2>
+            <h2 class="mb-3">Novo Por aqui? <a>Assine agora</a>.</h2>
             <div>
-                <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. 
-                    <button type="button" @click="mostrarMais" v-bind:class="{hide: !saibaMais}">Saiba mais.</button>
+                <p class="text-sm mb-3">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. 
+                    <button type="button" @click="mostrarMais" v-bind:class="{hide: !saibaMais}" class="text-[#15009C]">Saiba mais.</button>
                 </p>
-                <p  v-bind:class="{hide: saibaMais}">As informações recolhidas pelo Google reCAPTCHA estão sujeitas à <a class="decoration-solid text-[#15009C]">Política de Privacidade</a> e <a class="decoration-solid text-[#15009C]">Termos de Uso</a>, e são usadas para oferecer, manter e melhorar o serviço reCAPTCHA e por questões de segurança (não são usadas para exibir anúncios personalizados pelo Google).</p>
+                <p  v-bind:class="{hide: saibaMais}" class="text-sm">As informações recolhidas pelo Google reCAPTCHA estão sujeitas à <a class="decoration-solid text-[#15009C]">Política de Privacidade</a> e <a class="decoration-solid text-[#15009C]">Termos de Uso</a>, e são usadas para oferecer, manter e melhorar o serviço reCAPTCHA e por questões de segurança (não são usadas para exibir anúncios personalizados pelo Google).</p>
             </div>
             
         </section>

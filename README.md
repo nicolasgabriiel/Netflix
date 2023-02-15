@@ -46,7 +46,7 @@ npm run build
     -[x] Criar Background
     -[x] Criar Componente Formulário
     -[x] Estruturar Formulário
-    -[ ] Estilizar Formulário
+    -[x] Estilizar Formulário
     -[ ] Validar Formulário 
     -[x] Criar Lógica do Saiba mais
     -[ ] Criar Rotas até os sites corretos
