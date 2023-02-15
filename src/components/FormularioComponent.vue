@@ -7,8 +7,10 @@
                 class="block bg-[#333333] w-full p-4 mb-5 rounded-md">
                 <input type="text" placeholder="Senha"
                 class="block bg-[#333333] w-full p-4 rounded-md mb-10">
-                <button class="block bg-[#E50914] w-full p-3 mb-5 rounded-md text-base font-bold"
-                >Entrar</button>
+                <router-link to="/Login">      
+                    <button class="block bg-[#E50914] w-full p-3 mb-5 rounded-md text-base font-bold"
+                    >Entrar</button>
+                </router-link>  
             </form>
             <div class="flex justify-between">
                 <div class="flex mb-10">
