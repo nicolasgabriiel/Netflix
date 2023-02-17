@@ -49,9 +49,10 @@ npm run build
     -[x] Estilizar Formulário
     -[ ] Validar Formulário 
     -[x] Criar Lógica do Saiba mais
-    -[ ] Criar Rotas até os sites corretos
-    -[ ] Criar Componente Footer
+    -[x] Criar Rotas até os sites corretos
+    -[x] Criar Componente Footer
     -[ ] Estruturar Componente Footer
     -[ ] Estilizar Componente Footer
     -[ ] Criar Rotas do Componente Footer
+    -[ ] Estilizar melhor ainda a tela de Home
 -[ ] Crição da tela de Escolha de Perfis
