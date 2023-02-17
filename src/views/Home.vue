@@ -6,6 +6,7 @@
   <router-link to="/"><img src="../assets/logo.png" alt="" class="w-44 pt-5 ml-12"></router-link>
   <!-- Componentes   -->
   <FormularioComponent/>
+  <FooterComponent/>
   
   
 </template>
@@ -14,11 +15,13 @@
 import { defineComponent } from 'vue';
 import { RouterLink } from 'vue-router';
 import FormularioComponent from '../components/FormularioComponent.vue'
+import FooterComponent from '../components/FooterHomeComponent.vue'
 
 export default defineComponent({
   name:'Home',
   components:{
-    FormularioComponent
+    FormularioComponent,
+    FooterComponent
   }
 })
 </script>
