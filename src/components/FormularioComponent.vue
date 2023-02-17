@@ -24,7 +24,7 @@
                 <p class="text-sm mb-3">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. 
                     <button type="button" @click="mostrarMais" v-bind:class="{hide: !saibaMais}" class="text-[#15009C]">Saiba mais.</button>
                 </p>
-                <p  v-bind:class="{hide: saibaMais}" class="text-sm">As informações recolhidas pelo Google reCAPTCHA estão sujeitas à <a class="decoration-solid text-[#15009C]">Política de Privacidade</a> e <a class="decoration-solid text-[#15009C]">Termos de Uso</a>, e são usadas para oferecer, manter e melhorar o serviço reCAPTCHA e por questões de segurança (não são usadas para exibir anúncios personalizados pelo Google).</p>
+                <p  v-bind:class="{hide: saibaMais}" class="text-sm">As informações recolhidas pelo Google reCAPTCHA estão sujeitas à <a class="decoration-solid text-[#15009C]" href="https://policies.google.com/privacy" target="_blank">Política de Privacidade</a> e <a class="decoration-solid text-[#15009C]" target="_blank" href="https://policies.google.com/terms">Termos de Uso</a>, e são usadas para oferecer, manter e melhorar o serviço reCAPTCHA e por questões de segurança (não são usadas para exibir anúncios personalizados pelo Google).</p>
             </div>
             
         </section>
