@@ -1,5 +1,5 @@
 <template>
-    <footer class="text-white text-3xl">
+    <footer class="text-white text-3xl bg-black">
         <h1>Dúvidas? Ligue 0800 591 8942</h1>
         <div>
             </div>

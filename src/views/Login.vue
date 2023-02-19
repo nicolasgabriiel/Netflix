@@ -14,8 +14,8 @@
         </div>
       </div>
       <div class="flex justify-center mt-20">
-        <button class="border-[#808080] border-2 pt-3 pb-3 pl-10 pr-10 mb-5 text-2xl text-[#808080] hover:text-white hover:border-white" 
-      >Gerenciar Perfis</button>
+        <router-link to="./login/confirguracoes"><button class="border-[#808080] border-2 pt-3 pb-3 pl-10 pr-10 mb-5 text-2xl text-[#808080] hover:text-white hover:border-white" 
+      >Gerenciar Perfis</button></router-link>
       </div>
     </div>
   </main>
