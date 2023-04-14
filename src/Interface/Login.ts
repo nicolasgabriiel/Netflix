@@ -3,3 +3,5 @@ class Profile{
     photo: string
 
 }
+
+export Profile
