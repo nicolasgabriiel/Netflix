@@ -1,21 +1,27 @@
 <template>
   <header>sadas</header>
-  <main class="w-full h-screen bg-[#141414] flex justify-center">
-    <div class="mt-36 ">
-      <h1 class="text-7xl text-white bold mb-14">Quem está assistindo?</h1>
-      <div class="flex justify-center">
-        <div class="mousefi mr-10 hover:cursor-pointer mouse" >
-          <div class="perfil w-48 h-48"></div>
-          <p class="text-2xl text-[#808080] text-center mt-2">Meu Perfil</p>
+  <main class="box-menu">
+    <div class="container-box">
+      <h1 class="title">Quem está assistindo?</h1>
+
+      <div class="container-perfis">
+        <div class="box-selecao">
+          <div class="perfil"></div>
+          <p class="text-perfil">Meu Perfil</p>
         </div>
-        <div class="mouseadicionar">
-          <div class="adicionar w-48 h-48 hover:cursor-pointer hover:bg-white"></div>
-          <p class="text-2xl text-[#808080] text-center mt-2">Adicionar Perfil</p>
+        <div class="box-selecao">
+          <div class="adicionar "></div>
+          <p class=" text-perfil" >Adicionar Perfil</p>
         </div>
       </div>
-      <div class="flex justify-center mt-20">
-        <router-link to="./login/confirguracoes"><button class="border-[#808080] border-2 pt-3 pb-3 pl-10 pr-10 mb-5 text-2xl text-[#808080] hover:text-white hover:border-white" 
-      >Gerenciar Perfis</button></router-link>
+
+      <div class="container-gerenciador">
+        <router-link to="./login/confirguracoes">
+          <button
+            class="gerenciador">
+            Gerenciar Perfis
+            </button>
+        </router-link>
       </div>
     </div>
   </main>
@@ -27,20 +33,94 @@ header {
   height: 68px;
   background-image: linear-gradient(to bottom, #060606, #141414);
 }
-.perfil{
+
+.box-menu {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+}
+
+.container-box {
+  margin-top: 9rem;
+}
+
+.title {
+  font-size: 4.5rem;
+  line-height: 1;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 3.5rem;
+}
+
+.container-perfis {
+  display: flex;
+  justify-content: center;
+}
+
+.perfil {
   background-image: url(../assets/icons/velhote.png);
   background-size: contain;
+  display: block;
+  width: 12rem;
+  height: 12rem;
+  padding: 0.75rem;
 }
-.mousefi:hover  p, .mouseadicionar:hover p{
+.text-perfil{
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  color:#808080;
+  padding: 0 0.75rem;
+}
+
+.box-selecao {
+  cursor: pointer;
+  margin: 0 2rem ;
+  width: 232px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-selecao:hover{
   color: white;
 }
-.mousefi:hover  .perfil, .mouseadicionar:hover .adicionar{
+.box-selecao:hover .text-perfil{
+  color: black;
+}
+.box-selecao:hover{
   background-color: white;
 }
-.adicionar{
+
+.adicionar {
   background-image: url(../assets/adicionar.png);
-  background-size:65%;
+  background-size: 65%;
   background-position: center;
   background-repeat: no-repeat;
+  width: 12rem;
+  height: 12rem;
+}
+.adicionar:hover{
+  color: white;
+  border-color: white;
+}
+.gerenciador{
+  border: 2px solid #808080;
+  padding: 0.75rem 2.5rem;
+  margin-bottom: 1.25rem ;
+  font-size: 1.5rem;
+  color: #808080;
+}
+.gerenciador:hover{
+  color: white;
+  border-color: white;
+}
+.container-gerenciador{
+margin-top: 5rem;
+display: flex;
+justify-content: center;
 }
 </style>
