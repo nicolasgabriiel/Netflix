@@ -5,15 +5,18 @@
       <h1 class="title">Quem está assistindo?</h1>
 
       <div class="container-perfis">
+        
         <div class="box-selecao">
           <div class="perfil"></div>
           <p class="text-perfil">Meu Perfil</p>
-        </div>
+        </div><!--box selecao -->
+        
         <div class="box-selecao">
           <div class="adicionar "></div>
           <p class=" text-perfil" >Adicionar Perfil</p>
-        </div>
-      </div>
+        </div><!--box selecao -->
+
+      </div><!--container perfil-->
 
       <div class="container-gerenciador">
         <router-link to="./login/confirguracoes">
@@ -22,8 +25,9 @@
             Gerenciar Perfis
             </button>
         </router-link>
-      </div>
-    </div>
+      </div><!-- container gerenciador-->
+
+    </div><!--container box-->
   </main>
 </template>
 
