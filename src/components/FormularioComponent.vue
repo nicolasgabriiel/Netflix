@@ -39,12 +39,14 @@
 .hide {
     opacity: 0;
 }
+
 .box-conter {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
     width: 100%;
 }
+
 .container-formulario {
     background-color: rgb(0 0 0 / 0.75);
     padding: 60px 68px 40px 68px;
@@ -53,6 +55,7 @@
     box-sizing: border-box;
     color: white;
 }
+
 .texto-principal {
     font-size: 2.25rem
         /* 36px */
@@ -65,17 +68,20 @@
     ;
     color: white;
 }
+
 .inputs {
     display: block;
     background-color: #333333;
-    width: 100%;
+    width: 90%;
     padding: 1rem;
     border-radius: 0.375rem;
     margin-bottom: 1.25rem;
 }
+
 .input2 {
     margin-bottom: 2.5rem;
 }
+
 .botao-principal {
     display: block;
     background-color: #e50914;
@@ -91,20 +97,24 @@
     ;
     font-weight: 700px;
 }
+
 .container-inferior {
     display: flex;
     justify-content: space-between;
 }
+
 .box-inferior {
     margin-bottom: 2.5rem
         /* 40px */
     ;
     display: flex;
 }
+
 .texto-inferior {
     margin-bottom: 0.75rem
         /* 12px */
 }
+
 .textos {
     font-size: 0.875rem
         /* 14px */
@@ -114,12 +124,15 @@
     ;
     margin-bottom: 0.75rem;
 }
+
 .text-button {
     color: #15009c;
 }
+
 .decoration {
     text-decoration: solid;
-}</style>
+}
+</style>
 <script lang="ts">
 import { defineComponent } from 'vue'
 export default defineComponent({

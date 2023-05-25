@@ -26,7 +26,7 @@ z-index: -1;
   z-index: -2;
   }
   .logo{
-    width: 11rem;
+    width: 9.5rem;
     padding-top: 1.25rem;
     margin-left: 3rem;
   }
