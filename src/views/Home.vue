@@ -12,6 +12,7 @@
 </template>
 
 <style scoped>
+
 .principal-section{
 width: 100%;
 height: 100vh;
@@ -33,12 +34,12 @@ z-index: -1;
 
 <script  lang="ts">
 import { defineComponent } from 'vue';
-import { RouterLink } from 'vue-router';
+
 import FormularioComponent from '../components/FormularioComponent.vue'
 import FooterComponent from '../components/FooterHomeComponent.vue'
 
 export default defineComponent({
-  name:'Home',
+  name:'Home-Page',
   components:{
     FormularioComponent,
     FooterComponent

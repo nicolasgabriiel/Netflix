@@ -128,3 +128,10 @@ display: flex;
 justify-content: center;
 }
 </style>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({
+  name: 'Login-Page'
+})
+</script>

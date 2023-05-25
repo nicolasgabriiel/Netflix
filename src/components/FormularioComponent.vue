@@ -1,7 +1,7 @@
 <template>
     <div class="box-conter">
         <section class="container-formulario">
-            <h1 class="text-4xl text-white mb-5 texto-principal">Entrar</h1>
+            <h1 class="texto-principal">Entrar</h1>
             <form>
                 <input type="text" placeholder="Email ou número de telefone " class="inputs">
                 <input type="text" placeholder="Senha" class="inputs input2">
