@@ -76,6 +76,7 @@
     padding: 1rem;
     border-radius: 0.375rem;
     margin-bottom: 1.25rem;
+    color: white;
 }
 
 .input2 {
@@ -89,13 +90,11 @@
     padding: 0.75rem;
     margin: 0 0 1.25rem 0;
     border-radius: 0.375rem;
-    font-size: 1rem
-        /* 16px */
-    ;
-    line-height: 1.5rem
-        /* 24px */
-    ;
-    font-weight: 700px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
 }
 
 .container-inferior {
@@ -104,15 +103,12 @@
 }
 
 .box-inferior {
-    margin-bottom: 2.5rem
-        /* 40px */
-    ;
+    margin-bottom: 2.5rem;
     display: flex;
 }
 
 .texto-inferior {
     margin-bottom: 0.75rem
-        /* 12px */
 }
 
 .textos {

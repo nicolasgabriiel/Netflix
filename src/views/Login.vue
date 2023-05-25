@@ -6,11 +6,12 @@
 
       <div class="container-perfis">
         
+        <router-link to="/bem-vindo">
         <div class="box-selecao">
           <div class="perfil"></div>
-          <p class="text-perfil">Meu Perfil</p>
+          <p class="text-perfil">{{perfil[0]}}</p>
         </div><!--box selecao -->
-        
+        </router-link>
         <div class="box-selecao">
           <div class="adicionar "></div>
           <p class=" text-perfil" >Adicionar Perfil</p>
@@ -132,6 +133,11 @@ justify-content: center;
 <script lang="ts">
 import { defineComponent } from 'vue';
 export default defineComponent({
-  name: 'Login-Page'
+  name: 'Login-Page',
+  data(){
+    return{
+      perfil: ['Meu Perfil']
+    }
+  }
 })
 </script>
