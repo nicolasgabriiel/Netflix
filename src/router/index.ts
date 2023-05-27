@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
-import Bemvindo from '../views/BemVindo.vue'
+import Gerenciador from '../views/Gerenciador.vue'
+import Bemvindo from '../views/Bemvindo.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -15,8 +16,13 @@ const routes: Array<RouteRecordRaw> = [
     component: Login,
   },
   {
+    path: '/login/configuracoes',
+    name: 'GerenciadorPerfis',
+    component: Gerenciador,
+  },
+  {
     path: '/bem-vindo',
-    name: 'BemVindo',
+    name: 'Bemvindo',
     component: Bemvindo,
   }
 ]

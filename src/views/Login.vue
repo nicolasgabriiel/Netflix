@@ -20,7 +20,7 @@
       </div><!--container perfil-->
 
       <div class="container-gerenciador">
-        <router-link to="./login/confirguracoes">
+        <router-link to="/login/configuracoes">
           <button
             class="gerenciador">
             Gerenciar Perfis
