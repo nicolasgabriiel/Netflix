@@ -22,3 +22,15 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+Planejamento
+
+-[ ] Pagina de Login
+-[ ] Pagina de Perfil
+-[ ] Pagina Inicial
+    -[ ] Componente Header
+        - [ ] Estrutura
+        - [ ] Estilo
+        - [ ] Lógica
+-[ ] Pagina Individual
