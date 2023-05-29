@@ -1,11 +1,11 @@
 <template>
     <header>
-        <nav>
-            <div class="box-esquerda">
+        <nav class="linha">
+            <div class="box-esquerda linha">
                 
-                <div class="logo">
+                <div class="container-logo">
                     <router-link to="/Bem-Vindo">
-                        
+                        <div  class="logo"></div>
                     </router-link>
                 </div> <!-- LOGO -->
                 
@@ -16,11 +16,11 @@
                     <button>Bombando</button>
                     <button>Minha lista</button>
                     <button>Navegar por idiomas</button>
-                </div><!-- Navegacao -->
+                </div><!-- NAVEGACAO -->
             
             </div><!--BOX ESQUERDA-->
             
-            <div class="box-direita">
+            <div class="box-direita linha">
                     
                     <div class="barra-de-pesquisa">
                         <input type="text" class="hide"/>
@@ -54,14 +54,34 @@ export default defineComponent({
 .hide{
     display: none !important;
 }
+.linha{
+    display: flex;
+    flex-direction: row;
+}
 header{
     width: 100%;
     height: 68px;
-    background-color: red;
+    background-color: black;
 }
 header nav{
-    display: flex;
-    flex-direction: row;
+    height: 100%;
     justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 93px;
+    height: 31px;
+    background-image: url(../../assets/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navegacao button{
+    background-color: transparent;
+    border: 0;
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 13.5px;
+    font-weight: bold;
+
 }
 </style>
