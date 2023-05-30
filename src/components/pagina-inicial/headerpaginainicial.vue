@@ -75,6 +75,7 @@ header nav{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0 50px;
 }
 .navegacao button{
     background-color: transparent;
@@ -82,6 +83,7 @@ header nav{
     color: rgba(255, 255, 255, 0.863);
     font-size: 13.5px;
     font-weight: bold;
-
+    cursor: pointer;
+    margin: 0 20px 0 0;
 }
 </style>
