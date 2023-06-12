@@ -2,7 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Gerenciador from '../views/Gerenciador.vue'
-import Bemvindo from '../views/Bemvindo.vue'
+import Bemvindo from '../views/BemVindo.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
