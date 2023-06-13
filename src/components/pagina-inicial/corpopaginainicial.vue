@@ -1,6 +1,6 @@
 <template>
-    <main>
-        <div class="container-filme"></div>
+    <main class="container">
+        <div class="container-filme" :style="{ backgroundImage: `url('${Filmes[2]}')` }"></div>
     </main>
 </template>
 
@@ -12,12 +12,13 @@ export default defineComponent({
     name: 'Corpo-da-Página-Inicial',
     async mounted(){
       try { 
-        const listaIdsFilmes = [502356,594767,603692,758323,804150,493529,1008005] 
+        const listaIdsFilmes = [502356,594767,603692] 
         //Lista de Identificadores de 7 filmes
-        for(let i = 0; i < 7; i++){
+        for(let i = 0; i < listaIdsFilmes.length; i++){
         const response = await axios.get(`https://api.themoviedb.org/3/movie/${listaIdsFilmes[i]}?api_key=${this.keyApi}`);
+        console.log(response)
         //Buscando todas as Urls dos 7 filmes (A keyApi é disponibilizada pra cada dev que utiliza a API)
-        this.urlFilmes[i] = response.data.poster_path;
+        this.urlFilmes[i] = response.data.backdrop_path;
         //Colocando o resultado das urls na lista urlFilmes
         this.Filmes[i] = this.buscadorDeImagem + this.urlFilmes[i];
         //Juntanto a parte da pesquisa com a parte da URL
@@ -42,12 +43,23 @@ export default defineComponent({
 
 
 <style>
-main{
+.container{
     display: flex;
+    width: 100%;
     justify-content: center;
+;
 }
 .container-filme{
-width: 100px;
-height: 80px;
+    margin-top: 50px;
+    width: 300px;
+    height: 169px;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.7s;
 }
+.container-filme:hover{
+    scale:1.2;
+}
+
 </style>
