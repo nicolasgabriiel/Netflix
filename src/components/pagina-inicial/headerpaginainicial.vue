@@ -4,7 +4,7 @@
             <div class="box-esquerda linha">
                 
                 <div class="container-logo">
-                    <router-link to="/Bem-Vindo">
+                    <router-link to="/login">
                         <div  class="logo"></div>
                     </router-link>
                 </div> <!-- LOGO -->
